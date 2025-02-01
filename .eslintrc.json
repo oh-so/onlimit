@@ -1,3 +1,20 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["next/babel", "next/core-web-vitals"],
+  "rules": {
+    /** 사용하지 않는 변수처리 rule
+     * @see: https://github.com/eslint/eslint/blob/main/docs/src/rules/no-unused-vars.md
+     */
+    "@typescript-eslint/no-unused-vars": "warn",
+
+    /** 사용하지 않는 모듈 import 체크하는 rule
+     * @see: https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-unresolved.md
+     */
+    "import/no-unresolved": "error",
+
+    /** import 구문이 최상단에 위치하는지 체크하는 rule
+     * @see: https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/first.md
+     */
+    "import/first": "error"
+  }
 }
+
