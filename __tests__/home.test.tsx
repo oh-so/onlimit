@@ -1,7 +1,7 @@
 import { render, screen, within } from '@testing-library/react';
 import { expect, test } from 'vitest';
 
-import Home from '../src/app/home';
+import Home from '../src/app/home/page';
 test('Pages Router', () => {
   render(<Home />);
   const main = within(screen.getByRole('main'));

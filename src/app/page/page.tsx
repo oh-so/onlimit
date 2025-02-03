@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 
-import apiClient from '../../../lib/instance';
+import apiClient from '../../../lib/axios/interceptor/instance';
 export interface Pokemon {
   id: number;
   name: string;
