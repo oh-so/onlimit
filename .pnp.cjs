@@ -37,6 +37,7 @@ const RAW_RUNTIME_STATE =
           ["@typescript-eslint/parser", "virtual:eef743061aed5c15e85813c5d9dab13cf8ba6ab5925e5e771a6850bfc21d929cd6e2a0c8c81486062a9c2bbda9d08e5f07e87bbaea56002f7aa547a42866fa92#npm:8.22.0"],\
           ["@vitejs/plugin-react", "virtual:eef743061aed5c15e85813c5d9dab13cf8ba6ab5925e5e771a6850bfc21d929cd6e2a0c8c81486062a9c2bbda9d08e5f07e87bbaea56002f7aa547a42866fa92#npm:4.3.4"],\
           ["@yarnpkg/sdks", "npm:3.2.0"],\
+          ["axios", "npm:1.6.5"],\
           ["eslint", "npm:8.57.1"],\
           ["eslint-config-next", "virtual:eef743061aed5c15e85813c5d9dab13cf8ba6ab5925e5e771a6850bfc21d929cd6e2a0c8c81486062a9c2bbda9d08e5f07e87bbaea56002f7aa547a42866fa92#npm:14.2.23"],\
           ["eslint-config-prettier", "virtual:eef743061aed5c15e85813c5d9dab13cf8ba6ab5925e5e771a6850bfc21d929cd6e2a0c8c81486062a9c2bbda9d08e5f07e87bbaea56002f7aa547a42866fa92#npm:10.0.1"],\
@@ -2551,6 +2552,18 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["axios", [\
+      ["npm:1.6.5", {\
+        "packageLocation": "../../../.yarn/berry/cache/axios-npm-1.6.5-87404a12d6-10c0.zip/node_modules/axios/",\
+        "packageDependencies": [\
+          ["axios", "npm:1.6.5"],\
+          ["follow-redirects", "virtual:87404a12d617a0f284f46fa368966665b2913bbd41d7ad24d282540aefa3360d8754e9717ae9b8aa4b57d1893372657e94658e9e39b9d068bbcf6ea38c2ceb2f#npm:1.15.9"],\
+          ["form-data", "npm:4.0.1"],\
+          ["proxy-from-env", "npm:1.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["axobject-query", [\
       ["npm:4.1.0", {\
         "packageLocation": "../../../.yarn/berry/cache/axobject-query-npm-4.1.0-9703554323-10c0.zip/node_modules/axobject-query/",\
@@ -4209,6 +4222,28 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/flatted-npm-3.3.2-6bf77e6e67-10c0.zip/node_modules/flatted/",\
         "packageDependencies": [\
           ["flatted", "npm:3.3.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["follow-redirects", [\
+      ["npm:1.15.9", {\
+        "packageLocation": "../../../.yarn/berry/cache/follow-redirects-npm-1.15.9-539785d34c-10c0.zip/node_modules/follow-redirects/",\
+        "packageDependencies": [\
+          ["follow-redirects", "npm:1.15.9"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:87404a12d617a0f284f46fa368966665b2913bbd41d7ad24d282540aefa3360d8754e9717ae9b8aa4b57d1893372657e94658e9e39b9d068bbcf6ea38c2ceb2f#npm:1.15.9", {\
+        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-9233bd943e/4/.yarn/berry/cache/follow-redirects-npm-1.15.9-539785d34c-10c0.zip/node_modules/follow-redirects/",\
+        "packageDependencies": [\
+          ["follow-redirects", "virtual:87404a12d617a0f284f46fa368966665b2913bbd41d7ad24d282540aefa3360d8754e9717ae9b8aa4b57d1893372657e94658e9e39b9d068bbcf6ea38c2ceb2f#npm:1.15.9"],\
+          ["@types/debug", null],\
+          ["debug", null]\
+        ],\
+        "packagePeers": [\
+          "@types/debug",\
+          "debug"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5988,6 +6023,7 @@ const RAW_RUNTIME_STATE =
           ["@typescript-eslint/parser", "virtual:eef743061aed5c15e85813c5d9dab13cf8ba6ab5925e5e771a6850bfc21d929cd6e2a0c8c81486062a9c2bbda9d08e5f07e87bbaea56002f7aa547a42866fa92#npm:8.22.0"],\
           ["@vitejs/plugin-react", "virtual:eef743061aed5c15e85813c5d9dab13cf8ba6ab5925e5e771a6850bfc21d929cd6e2a0c8c81486062a9c2bbda9d08e5f07e87bbaea56002f7aa547a42866fa92#npm:4.3.4"],\
           ["@yarnpkg/sdks", "npm:3.2.0"],\
+          ["axios", "npm:1.6.5"],\
           ["eslint", "npm:8.57.1"],\
           ["eslint-config-next", "virtual:eef743061aed5c15e85813c5d9dab13cf8ba6ab5925e5e771a6850bfc21d929cd6e2a0c8c81486062a9c2bbda9d08e5f07e87bbaea56002f7aa547a42866fa92#npm:14.2.23"],\
           ["eslint-config-prettier", "virtual:eef743061aed5c15e85813c5d9dab13cf8ba6ab5925e5e771a6850bfc21d929cd6e2a0c8c81486062a9c2bbda9d08e5f07e87bbaea56002f7aa547a42866fa92#npm:10.0.1"],\
@@ -6437,6 +6473,15 @@ const RAW_RUNTIME_STATE =
           ["loose-envify", "npm:1.4.0"],\
           ["object-assign", "npm:4.1.1"],\
           ["react-is", "npm:16.13.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["proxy-from-env", [\
+      ["npm:1.1.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/proxy-from-env-npm-1.1.0-c13d07f26b-10c0.zip/node_modules/proxy-from-env/",\
+        "packageDependencies": [\
+          ["proxy-from-env", "npm:1.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
