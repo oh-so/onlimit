@@ -1,8 +1,8 @@
-"use client"
+'use client';
 
 import { useEffect, useState } from 'react';
 
-import apiClient from '../../../lib/axios/interceptor/instance';
+import apiClient from '@/lib/axios/instance';
 export interface Pokemon {
   id: number;
   name: string;
@@ -101,10 +101,10 @@ export default function Page() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await apiClient.get<Pokemon>("/1");
+        const response = await apiClient.get<Pokemon>('/1');
         setData(response.data);
       } catch (error) {
-        console.error("Error fetching data:", error);
+        console.error('Error fetching data:', error);
       }
     };
 
