@@ -9,7 +9,7 @@
 
 ```bash
 # 저장소 클론
-git clone https://github.com/meta/onlimit.git
+git clone https://github.com/oh-so/onlimit
 cd onlimit
 
 # 의존성 설치
